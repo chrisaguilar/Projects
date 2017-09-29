@@ -1,0 +1,20 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+
+    "tasks": [
+        {
+            "taskName": "Start Virtual Environment",
+            "type": "shell",
+            "command": "python -m venv ${workspaceRoot}/env",
+            "problemMatcher": []
+        },
+        {
+            "taskName": "Install Requirements",
+            "type": "shell",
+            "command": "${workspaceRoot}/env/bin/python -m pip install -r ${workspaceRoot}/requirements.txt",
+            "problemMatcher": []
+        }
+    ]
+}

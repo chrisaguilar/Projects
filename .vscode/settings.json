@@ -1,0 +1,21 @@
+{
+    "python.formatting.formatOnSave": true,
+    "python.formatting.provider": "yapf",
+    "python.jediPath": "jedi",
+    "python.linting.enabledWithoutWorkspace": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.pydocstyleEnabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.promptToInstallJupyter": false,
+    "python.pythonPath": "${workspaceRoot}/env/bin/python",
+    "python.sortImports.path": "isort",
+    "python.unitTest.nosetestsEnabled": false,
+    "python.unitTest.promptToConfigure": true,
+    "python.unitTest.pyTestEnabled": true,
+    "python.unitTest.pyTestPath": "pytest",
+    "python.unitTest.unittestEnabled": false,
+    "code-runner.executorMap": {
+        "python": "cd $dir && $workspaceRoot/env/bin/python $dir$fileName"
+    }
+}

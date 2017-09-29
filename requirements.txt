@@ -1,0 +1,13 @@
+# Visual Studio Code Setup
+flake8
+isort
+jedi
+mypy
+mypy-lang
+pydocstyle
+pylint
+pytest
+yapf
+
+# Project-Specific Packages
+numpy
